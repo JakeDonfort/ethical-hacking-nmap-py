@@ -51,9 +51,11 @@ pip3 install -r REQUIREMENTS.txt
 python3 nmap.py --help
 ```
 
+<div align="center">
 
 ![nmap example gif](https://github.com/JakeDonfort/ethical-hacking-nmap-py/blob/main/nmap_example.gif)
 
+</div>
 
 <h2>Note on the use of port scanning</h2>
 
