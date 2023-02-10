@@ -38,7 +38,9 @@ apt-get install python-pip -y
 ```
 apt-get install git -y
 ```
+
 <h3>Installing nmap.py</h3>
+
 ```
 git clone https://github.com/JakeDonfort/ethical-hacking-nmap-py/
 ```
