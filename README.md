@@ -53,7 +53,8 @@ python3 nmap.py --help
 
 <div align="center">
 
-![nmap example gif](https://github.com/JakeDonfort/ethical-hacking-nmap-py/blob/main/src/assets/example.gif)
+![nmap.py example image](https://github.com/JakeDonfort/ethical-hacking-nmap-py/blob/main/src/assets/example2.jpg)
+![nmap.py example image](https://github.com/JakeDonfort/ethical-hacking-nmap-py/blob/main/src/assets/example3.jpg)
 
 </div>
 
