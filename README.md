@@ -3,7 +3,7 @@
 <h2>Description</h2>
 
 <p>
-    This is a simple Python project aimed at simulating the Nmap tool with support for proxy and threading. It's a port scanner that uses the TCP protocol and is compatible with both IPV4 and IPV6 addresses. The project displays if the port is open, the server version if available, and other relevant information. It's a straightforward and user-friendly project for those looking to learn more about networks and information security
+    This is a simple Python project aimed at simulating the <strong>Nmap</strong> tool with support for <strong>proxy</strong> and <strong>threading</strong>. It's a port scanner that uses the <strong>TCP protocol</strong> and is compatible with both <strong>IPV4</strong> and <strong>IPV6 addresses</strong>. The project displays if the port is open, the server version if available, and other relevant information. It's a straightforward and user-friendly project for those looking to learn more about networks and information security
 </p>
 
 <h2>Compatible and Tested</h2>
