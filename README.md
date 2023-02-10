@@ -50,10 +50,12 @@ pip3 install -r REQUIREMENTS.txt
 ```
 python3 nmap.py --help
 ```
+<h4>Example</h4>
 
 <div align="center">
 
-![nmap.py example image](https://github.com/JakeDonfort/ethical-hacking-nmap-py/blob/main/src/assets/example3.jpg)
+![nmap.py example image](https://github.com/JakeDonfort/ethical-hacking-nmap-py/blob/main/src/assets/ex1.jpg)
+![nmap.py example image](https://github.com/JakeDonfort/ethical-hacking-nmap-py/blob/main/src/assets/ex2.jpg)
 
 </div>
 
