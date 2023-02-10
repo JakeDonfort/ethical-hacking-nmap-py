@@ -1,4 +1,4 @@
-<h1>Nmap in Python</h1>
+<h1 align="center">Nmap in Python</h1>
 
 <h2>Description</h2>
 
@@ -22,58 +22,34 @@
 
 <h3>Configuring the Environment<h3>
 
-```
 
+```
 termux-setup-storage
-
 ```
-
 ```
-
 apt-get -y update && apt-get upgrade -y
-
 ```
-
 ```
-
 apt-get  install python3 -y
-
 ```
-
 ```
-
 apt-get install python-pip -y
-
 ```
-
 ```
-
 apt-get install git -y
-
 ```
-
 <h3>Installing nmap.py</h3>
 
 ```
-
 git clone https://github.com/JakeDonfort/ethical-hacking-nmap-py/
 
 ```
-
 ```
-
 cd ethical-hacking-nmap-py
-
 ```
-
 ```
-
 pip3 install -r REQUIREMENTS.txt
-
 ```
-
 ```
-
 python3 nmap.py --help
-
 ```
