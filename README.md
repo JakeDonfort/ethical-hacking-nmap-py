@@ -16,12 +16,9 @@
 
 </ul>
 
-![nmap example gif](https://github.com/JakeDonfort/ethical-hacking-nmap-py/blob/main/nmap_example.gif)
-
 <h2>How to install nmap.py in Termux</h2>
 
-<p>Configuring the Environment</p>
-
+<h4>Configuring the Environment</h4>
 
 ```
 termux-setup-storage
@@ -39,7 +36,7 @@ apt-get install python-pip -y
 apt-get install git -y
 ```
 
-<p>Installing nmap.py</p>
+<h4>Installing nmap.py</h4>
 
 ```
 git clone https://github.com/JakeDonfort/ethical-hacking-nmap-py/
@@ -53,3 +50,22 @@ pip3 install -r REQUIREMENTS.txt
 ```
 python3 nmap.py --help
 ```
+
+
+![nmap example gif](https://github.com/JakeDonfort/ethical-hacking-nmap-py/blob/main/nmap_example.gif)
+
+
+<h2>Note on the use of port scanning</h2>
+
+<p>
+The use of port scanning can be useful for network and system administration, but it can also be used for malicious purposes. A port scan is a technique used to determine which ports on a system are open and available for connection. This can be useful for a network administrator who wants to check for vulnerabilities in their network, but it can also be used by attackers to discover entry points for an attack.
+</p>
+
+<p>
+For this reason, the use of port scanning is considered illegal in many countries, unless it is performed with explicit permission from the owner or administrator of the system or network being scanned. Additionally, some Internet Service Provider (ISP) companies prohibit the use of port scanning on their network.
+</p>
+
+<p>
+In summary, the use of port scanning can be useful for legitimate purposes, but it can also be dangerous if used inappropriately or without authorization. It is important to use it with caution and consider the ethical and legal implications before using it.
+</p>
+
