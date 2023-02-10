@@ -20,7 +20,7 @@
 
 <h2>How to install nmap.py in Termux</h2>
 
-<h3>Configuring the Environment<h3>
+<p>Configuring the Environment</p>
 
 
 ```
@@ -39,7 +39,7 @@ apt-get install python-pip -y
 apt-get install git -y
 ```
 
-<h3>Installing nmap.py</h3>
+<p>Installing nmap.py</p>
 
 ```
 git clone https://github.com/JakeDonfort/ethical-hacking-nmap-py/
