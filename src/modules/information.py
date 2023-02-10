@@ -93,7 +93,7 @@ class Information:
                 if "X-Powered-By" in line or "X-App-Version" in line:
                     info["version"] = line.replace("X-Powered-By:", "").replace("X-Powered-By:", "").strip()
                     
-                if "Server" in line:
+                if "Server" in line and not "X-Server-Cache" in line:
                     info["server"] = line.replace("Server:", "").strip()
         
             return info
