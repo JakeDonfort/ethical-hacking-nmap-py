@@ -242,6 +242,8 @@ class Information:
                         elif attempt == 10:
                             print("\nNo internet connection or your network must be unstable\n")
                             return False 
+                finally:
+                    sleep(3)
                     
         except KeyboardInterrupt:
             exit()
