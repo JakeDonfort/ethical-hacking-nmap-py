@@ -78,7 +78,7 @@ class PortScanner:
                             
                             info = Information(data='scan')
                             
-                            if not info.get_check_network():
+                            if not info.get_check_network(self):
                                 exit()
                         try:
                             if self.proxy:
