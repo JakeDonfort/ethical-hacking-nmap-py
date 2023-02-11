@@ -63,12 +63,12 @@ if __name__ == "__main__":
                             break
                          
                         else: 
-                         	print(f'>>> Invalid Parameter')
-                         	
+                         	print('>>> Invalid Parameter')
+                     
                     except KeyboardInterrupt:
-                     	exit()
+                        exit()
         else:
             pass 
-        
+         
     except KeyboardInterrupt:
         exit()

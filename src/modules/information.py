@@ -222,10 +222,9 @@ class Information:
         try:
             while True:
                 host = "google.com"
-                result.settimeout(3)
                 
                 try:
-                    result = create_connection(host, 80)
+                    result = create_connection((host, 80), timeout=5)
                     return True
 
                 except:
