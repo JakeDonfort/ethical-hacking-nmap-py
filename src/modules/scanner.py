@@ -78,8 +78,9 @@ class PortScanner:
                             
                             info = Information(data='scan')
                             
-                            if not info.get_check_network(self):
+                            if not info.get_check_network():
                                 exit()
+                                
                         try:
                             if self.proxy:
                                 executor.submit(self.scan_port, self.host, int(port), self.proxy)
@@ -106,8 +107,8 @@ class PortScanner:
                 exit()
                 
             except Exception as error:
-                Information(error=error)
-                Information.get_error_info()
+                erro = Information(error=error)
+                erro.get_error_info()
                     
             end_time = time()
             calc_time = (end_time - start_time)
@@ -147,8 +148,8 @@ class PortScanner:
             exit()
             
         except Exception as error:
-            Information(error=error)
-            Information.get_error_info()
+            erro = Information(error=error)
+            erro.get_error_info()
         
     
     def scan_port(self, host, port, proxy=None):

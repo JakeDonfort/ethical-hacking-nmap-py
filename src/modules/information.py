@@ -30,6 +30,7 @@ class Information:
         self.host = host
         self.port = port 
         self.proxy = proxy
+        self.error = error
         self.data = data 
         self.type_ip = type_ip
         self.app_info = app_info
@@ -269,10 +270,12 @@ class Information:
             
             
     def get_error_info(self):
-        error = self.error
+        print("Entrou no get error: ", error)
+        
+        error = str(self.error)
         
         try:
-            if "timed out" in str(error):
+            if "timed out" in error:
                 pass 
                 
             elif '[Errno 7]' in error:
