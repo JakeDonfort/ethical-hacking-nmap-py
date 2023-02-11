@@ -1,6 +1,5 @@
-from socket import socket, AF_INET, AF_INET6, SOCK_STREAM, gethostbyaddr, getaddrinfo
+from socket import socket, AF_INET, AF_INET6, SOCK_STREAM, gethostbyaddr, getaddrinfo, create_connection
 from platform import system, release, machine
-from subprocess import run, PIPE, DEVNULL
 from bs4 import BeautifulSoup
 from random import choice
 from requests import get
@@ -222,14 +221,13 @@ class Information:
         
         try:
             while True:
-                hostname = "google.com"
-                result = run(["ping", "-c", "1", hostname], stdout=PIPE, stderr=DEVNULL)
-                output = result.stdout.decode('utf-8')
-                time = search("time=\d+\.\d+", output) 
-                
-                if time:
+                host = "google.com"
+                result = settimeout(3)
+                try:
+                    result = create_connection(host, 80)
                     return True
-                else:
+
+                except:
                     attempt += 1
                     
                     if self.data == "scan":
@@ -244,8 +242,6 @@ class Information:
                         elif attempt == 10:
                             print("\nNo internet connection or your network must be unstable\n")
                             return False 
-                            
-                    sleep(3)
                     
         except KeyboardInterrupt:
             exit()
