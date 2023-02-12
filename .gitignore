@@ -1,4 +1,6 @@
 REQUIREMENTS.txt
 README.md
+/src/__pycache__
+/src/assets/__pycache__
 /src/assets/ex1.jpg
 /src/assets/ex2.jpg

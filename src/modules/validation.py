@@ -30,7 +30,7 @@ class Validation:
                 self.proxy = flag.replace("--proxy", "").replace(":", " ").split()
             
             elif '--h' in flag:
-                self.host = flag.replace("--h", "")
+                self.host = flag.replace("--h", "").replace("http://", "").replace("https://", "")
            
         return self.host, self.port, self.proxy
         
