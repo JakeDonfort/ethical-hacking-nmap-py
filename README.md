@@ -10,8 +10,6 @@
 
 <ul>
 
-  <li>Kali Linux</li>
-
   <li>Termux (Android)</li>
 
 </ul>
